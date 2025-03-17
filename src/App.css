@@ -1,0 +1,181 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-dark: #0d1117;
+  --secondary-dark: #161b22;
+  --accent-green: #3fb950;
+  --accent-blue: #58a6ff;
+  --text-primary: #f0f6fc;
+  --text-secondary: #8b949e;
+  --gradient-green: linear-gradient(
+    135deg,
+    #0d1117 0%,
+    #0d4a2e 100%
+  );
+  --gradient-blue: linear-gradient(
+    135deg,
+    #0d1117 0%,
+    #0d4a6e 100%
+  );
+}
+
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--primary-dark);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--accent-green);
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-btn {
+  background: var(--accent-green); 
+  color: var(--primary-dark);
+}
+
+.primary-btn:hover {
+  background: #36a045; 
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: transparent;
+  color: var(--accent-green);
+  border: 2px solid var(--accent-green);
+}
+
+.secondary-btn:hover {
+  background: rgba(63, 185, 80, 0.1); 
+  transform: translateY(-2px);
+}
+
+.small-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.highlight {
+  color: var(--accent-green); 
+}
+
+
+/* Add these to App.css */
+
+/* Smooth section transitions */
+.section-title {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.project-card, .education-item, .contact-item, .timeline-item {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Staggered animations for items */
+.project-card:nth-child(1),
+.education-item:nth-child(1),
+.contact-item:nth-child(1),
+.timeline-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.project-card:nth-child(2),
+.education-item:nth-child(2),
+.contact-item:nth-child(2),
+.timeline-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.project-card:nth-child(3),
+.education-item:nth-child(3),
+.contact-item:nth-child(3),
+.timeline-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Smooth scrolling adjustment for fixed header */
+html {
+  scroll-padding-top: 80px; /* Adjust based on your header height */
+}
+
+/* Button hover effects */
+.btn {
+  position: relative;
+  overflow: hidden;
+}
+
+.primary-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: left 0.3s ease;
+}
+
+.primary-btn:hover::before {
+  left: 100%;
+}
