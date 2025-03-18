@@ -75,21 +75,21 @@
   margin-bottom: 10px;
 }
 
-/* Add this to Experience.css */
+//no timeline
 @media (max-width: 768px) {
   .timeline::before {
-    display: none; /* Hide the timeline line on mobile */
+    display: none;
   }
 
   .timeline-item {
     width: 100%;
     padding: 0;
     margin-bottom: 20px;
-    left: 0 !important; /* Override both even and odd items */
+    left: 0 !important; 
   }
   
   .timeline-item::after {
-    display: none; /* Hide the timeline circles on mobile */
+    display: none;
   }
   
   .timeline-content {
