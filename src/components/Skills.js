@@ -17,24 +17,24 @@ function Skills() {
       proficiency: 70,
     },
     {
-      name: "JavaScript",
-      logo: javascriptLogo,
+      name: "ReactJS",
+      logo: reactLogo,
       proficiency: 65,
     },
     {
-      name: "ReactJS",
-      logo: reactLogo,
-      proficiency: 70,
+      name: "JavaScript",
+      logo: javascriptLogo,
+      proficiency: 60,
     },
     {
       name: "HTML",
       logo: htmlLogo,
-      proficiency: 75,
+      proficiency: 70,
     },
     {
       name: "CSS",
       logo: cssLogo,
-      proficiency: 80,
+      proficiency: 75,
     },
     {
       name: "Arduino",
@@ -44,12 +44,12 @@ function Skills() {
     {
       name: "Python",
       logo: pythonLogo,
-      proficiency: 60,
+      proficiency: 40,
     },
     {
       name: "Java",
       logo: javaLogo,
-      proficiency: 50,
+      proficiency: 30,
     },
   ];
 
