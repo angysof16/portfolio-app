@@ -99,8 +99,23 @@ nav ul li a:hover::after {
 }
 
 @media (max-width: 768px) {
+  .header {
+    padding: 15px 0;
+  }
+
+  .logo-container {
+    flex: 0 0 auto;
+    margin-left: 15px;
+    gap: 10px;
+  }
+
+  .logo-text {
+    font-size: 1rem; 
+  }
+  
   .hamburger {
     display: block;
+    margin-right: 15px;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -116,6 +131,7 @@ nav ul li a:hover::after {
   }
 
   nav {
+    order: 3;
     position: fixed;
     left: 0;
     width: 100%;
