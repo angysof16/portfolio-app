@@ -75,7 +75,7 @@
   margin-bottom: 10px;
 }
 
-//no timeline
+
 @media (max-width: 768px) {
   .timeline::before {
     display: none; 
