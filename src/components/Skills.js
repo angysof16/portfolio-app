@@ -24,7 +24,7 @@ function Skills() {
     {
       name: "JavaScript",
       logo: javascriptLogo,
-      proficiency: 60,
+      proficiency: 55,
     },
     {
       name: "HTML",

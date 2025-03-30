@@ -5,12 +5,12 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Portfolio Personal",
+      title: "Portafolio Personal",
       description:
         "Mi sitio web personal construido con React que muestra mis proyectos, habilidades y experiencia.",
       technologies: ["React", "JavaScript", "CSS"],
-      link: "angysof16.github.io",
-      github: "https://github.com/angysof16/angysof16.github.io",
+      link: "https://angysof16.github.io/portfolio-app/",
+      github: "https://github.com/angysof16/portfolio-app",
     },
     {
       id: 2,
