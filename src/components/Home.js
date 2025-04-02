@@ -12,7 +12,7 @@ function Home() {
         <p>
           Welcome to my portfolio! I'm a 19-year-old Systems Engineering student
           passionate about software development, web technologies, and
-          problem-solving. I'm currently exploring <b>Iot and Robotics!</b> 🤖
+          problem-solving. I'm currently exploring <b>IoT and Robotics!</b> 🤖
           <br></br>
           <br></br>
           Here you'll find my projects, experience, and more about me.
