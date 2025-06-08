@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.053040ab.css",
-    "main.js": "/portfolio-app/static/js/main.04d832a4.js",
+    "main.js": "/portfolio-app/static/js/main.1370a5e1.js",
     "static/media/arduino.svg": "/portfolio-app/static/media/arduino.afb8ab21b41f7796ac703b8b23d32e97.svg",
     "static/media/java.svg": "/portfolio-app/static/media/java.a351f739f47fda7a637b86ffa530d56a.svg",
     "static/media/react.svg": "/portfolio-app/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
@@ -12,10 +12,10 @@
     "static/media/css.svg": "/portfolio-app/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/portfolio-app/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "main.053040ab.css.map": "/portfolio-app/static/css/main.053040ab.css.map",
-    "main.04d832a4.js.map": "/portfolio-app/static/js/main.04d832a4.js.map"
+    "main.1370a5e1.js.map": "/portfolio-app/static/js/main.1370a5e1.js.map"
   },
   "entrypoints": [
     "static/css/main.053040ab.css",
-    "static/js/main.04d832a4.js"
+    "static/js/main.1370a5e1.js"
   ]
 }
