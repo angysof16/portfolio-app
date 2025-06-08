@@ -5,18 +5,18 @@ function Education() {
   const education = [
     {
       id: 1,
-      degree: "Ingeniería de Sistemas",
+      degree: "Systems Engineering",
       institution: "Pontificia Universidad Javeriana",
       duration: "2023 - 2027",
       description: "Bachelor of Systems Engineering",
     },
     {
       id: 2,
-      degree: "Diplomado en Desarrollo Front-end con ReactJS",
+      degree: "Diploma in Front-end Development with ReactJS",
       institution: "Campus FIMLM",
       duration: "2022",
       description:
-        "Curso dedicado al diseño, desarrollo, y mantenimiento del Front-end de una página Web empleando ReactJS",
+        "Course dedicated to the design, development, and maintenance of the front-end of a website using ReactJS.",
     },
   ];
 

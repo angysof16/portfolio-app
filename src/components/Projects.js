@@ -5,26 +5,26 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Portafolio Personal",
+      title: "Personal Portfolio",
       description:
-        "Mi sitio web personal construido con React que muestra mis proyectos, habilidades y experiencia.",
+        "My personal website built with React that showcases my projects, skills, and experience.",
       technologies: ["React", "JavaScript", "CSS"],
       link: "https://angysof16.github.io/portfolio-app/",
       github: "https://github.com/angysof16/portfolio-app",
     },
     {
       id: 2,
-      title: "Alcoholímetro IoT",
-      description: "Aplicación que implementa un sistema IoT que monitorea los niveles de alcohol en tiempo real utilizando un sensor MQ-3 implementando el protocolo MQTT y envía alertas a través de Telegram cuando se supera un umbral predefinido.",
+      title: "IoT Breathalyzer",
+      description: "Application that implements an IoT system to monitor alcohol levels in real time using an MQ-3 sensor. It uses the MQTT protocol and sends alerts via Telegram when a predefined threshold is exceeded.",
       technologies: ["C", "Java", "IoT", "MQTT"],
       link: "https://www.youtube.com/watch?v=1chsSwvc5q8",
       github: "https://github.com/angysof16/AlcoholimetroIoT",
     },
     {
       id: 3,
-      title: "Aplicación To Do List",
+      title: "To Do List Application",
       description:
-        "Aplicación para gestionar tareas con funcionalidades de agregar, actualizar y eliminar los ítems.",
+        "Task management application with functionalities to add, update, and delete items.",
       technologies: ["JavaScript", "HTML", "CSS"],
       link: "https://todolist-sofiaguerra.netlify.app/",
       github: "https://github.com/angysof16/M4U3ToDoListSofiaGuerra",
@@ -33,15 +33,15 @@ function Projects() {
       id: 4,
       title: "Weather App",
       description:
-        "Aplicación de clima que utiliza la API de OpenWeatherMap para mostrar condiciones meteorológicas actuales y pronósticos.",
+        "Weather application that uses the OpenWeatherMap API to display current weather conditions and forecasts.",
       technologies: ["JavaScript", "HTML", "CSS", "API Integration"],
       link: "https://openweathermap-api-sofiaguerra.netlify.app/",
       github: "https://github.com/angysof16/Openweathermap-API",
     },
     {
       id: 5,
-      title: "Ahorcados",
-      description: "Aplicación del juego Ahorcados usando Typescript.",
+      title: "Hangman",
+      description: "Hangman game application using TypeScript.",
       technologies: ["Typescript", "CSS", "HTML", "JavaScript"],
       link: "https://ahorcados-react-sofiaguerra.netlify.app/",
       github: "https://github.com/angysof16/Ahorcados-React-TS",
