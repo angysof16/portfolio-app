@@ -10,7 +10,7 @@ function Footer() {
           <div className="footer-logo">
             <img src={logoImage} alt="Logo" className="logo-img" />
           </div>
-          <p>&copy; {new Date().getFullYear()} Sofia Guerra Jiménez. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Sofia Guerra Jiménez.</p>
         </div>
       </div>
     </footer>
