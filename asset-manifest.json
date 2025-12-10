@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.053040ab.css",
-    "main.js": "/portfolio-app/static/js/main.1370a5e1.js",
+    "main.css": "/portfolio-app/static/css/main.c80182a0.css",
+    "main.js": "/portfolio-app/static/js/main.8505660b.js",
+    "static/media/foto.png": "/portfolio-app/static/media/foto.0d9303898226d7fa762f.png",
+    "static/media/ros.svg": "/portfolio-app/static/media/ros.2e80e6ddaf9244e94415ac2453187cd0.svg",
     "static/media/arduino.svg": "/portfolio-app/static/media/arduino.afb8ab21b41f7796ac703b8b23d32e97.svg",
-    "static/media/java.svg": "/portfolio-app/static/media/java.a351f739f47fda7a637b86ffa530d56a.svg",
     "static/media/react.svg": "/portfolio-app/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/cpp.svg": "/portfolio-app/static/media/cpp.a776a608546a79750b150829bc9b099e.svg",
     "static/media/python.svg": "/portfolio-app/static/media/python.e6d7dc739a91892bbf1f6262412046dd.svg",
@@ -11,11 +12,11 @@
     "static/media/javascript.svg": "/portfolio-app/static/media/javascript.0602e5e87c15f8954f0f18bcc983f365.svg",
     "static/media/css.svg": "/portfolio-app/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html.svg": "/portfolio-app/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.053040ab.css.map": "/portfolio-app/static/css/main.053040ab.css.map",
-    "main.1370a5e1.js.map": "/portfolio-app/static/js/main.1370a5e1.js.map"
+    "main.c80182a0.css.map": "/portfolio-app/static/css/main.c80182a0.css.map",
+    "main.8505660b.js.map": "/portfolio-app/static/js/main.8505660b.js.map"
   },
   "entrypoints": [
-    "static/css/main.053040ab.css",
-    "static/js/main.1370a5e1.js"
+    "static/css/main.c80182a0.css",
+    "static/js/main.8505660b.js"
   ]
 }
