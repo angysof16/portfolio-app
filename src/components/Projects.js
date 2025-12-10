@@ -5,15 +5,23 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Personal Portfolio",
+      title: "Personal 90s/00s Style Website Portfolio",
       description:
-        "My personal website built with React that showcases my projects, skills, and experience.",
+        "My personal 90s/00s inspired website built with HTML/CSS that showcases a creative design.",
       technologies: ["React", "JavaScript", "CSS"],
-      link: "https://angysof16.github.io/portfolio-app/",
-      github: "https://github.com/angysof16/portfolio-app",
+      link: "https://angysof16.github.io/personalwebsite/",
+      github: "https://github.com/angysof16/personalwebsite",
     },
     {
       id: 2,
+      title: "RB-Y1 Robot Implementation",
+      description:
+        "ROS 2 Jazzy implementation of the Rainbow Robotics RB-Y1 humanoid robot with Gazebo simulation and control capabilities.",
+      technologies: ["ROS2", "Gazebo", "ROS2 Controllers"],
+      github: "https://github.com/angysof16/rby1_robot_implementation",
+    },
+    {
+      id: 3,
       title: "IoT Breathalyzer",
       description: "Application that implements an IoT system to monitor alcohol levels in real time using an MQ-3 sensor. It uses the MQTT protocol and sends alerts via Telegram when a predefined threshold is exceeded.",
       technologies: ["C", "Java", "IoT", "MQTT"],
@@ -21,7 +29,7 @@ function Projects() {
       github: "https://github.com/angysof16/AlcoholimetroIoT",
     },
     {
-      id: 3,
+      id: 4,
       title: "To Do List Application",
       description:
         "Task management application with functionalities to add, update, and delete items.",
@@ -30,7 +38,7 @@ function Projects() {
       github: "https://github.com/angysof16/M4U3ToDoListSofiaGuerra",
     },
     {
-      id: 4,
+      id: 5,
       title: "Weather App",
       description:
         "Weather application that uses the OpenWeatherMap API to display current weather conditions and forecasts.",
@@ -39,7 +47,7 @@ function Projects() {
       github: "https://github.com/angysof16/Openweathermap-API",
     },
     {
-      id: 5,
+      id: 6,
       title: "Hangman",
       description: "Hangman game application using TypeScript.",
       technologies: ["Typescript", "CSS", "HTML", "JavaScript"],

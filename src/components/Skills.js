@@ -7,51 +7,74 @@ import javascriptLogo from "../assets/skills/javascript.svg";
 import pythonLogo from "../assets/skills/python.svg";
 import htmlLogo from "../assets/skills/html.svg";
 import cssLogo from "../assets/skills/css.svg";
-import javaLogo from "../assets/skills/java.svg";
+import ROSLogo from "../assets/skills/ros.svg";
 
 function Skills() {
   const skills = [
     {
       name: "C++",
       logo: cppLogo,
-      proficiency: 70,
-    },
-    {
-      name: "ReactJS",
-      logo: reactLogo,
-      proficiency: 65,
-    },
-    {
-      name: "JavaScript",
-      logo: javascriptLogo,
-      proficiency: 55,
-    },
-    {
-      name: "HTML",
-      logo: htmlLogo,
-      proficiency: 70,
-    },
-    {
-      name: "CSS",
-      logo: cssLogo,
-      proficiency: 75,
-    },
-    {
-      name: "Arduino",
-      logo: arduinoLogo,
-      proficiency: 70,
+      level: "Advanced",
+      stars: 4,
     },
     {
       name: "Python",
       logo: pythonLogo,
-      proficiency: 40,
+      level: "Intermediate",
+      stars: 3,
     },
     {
-      name: "Java",
-      logo: javaLogo,
-      proficiency: 30,
+      name: "ROS2",
+      logo: ROSLogo ,
+      level: "Intermediate",
+      stars: 3,
+    },
+    {
+      name: "ReactJS",
+      logo: reactLogo,
+      level: "Intermediate",
+      stars: 3,
+    },
+    {
+      name: "JavaScript",
+      logo: javascriptLogo,
+      level: "Intermediate",
+      stars: 3,
+    },
+    {
+      name: "HTML",
+      logo: htmlLogo,
+      level: "Advanced",
+      stars: 4,
+    },
+    {
+      name: "CSS",
+      logo: cssLogo,
+      level: "Intermediate",
+      stars: 3,
+    },
+    {
+      name: "Arduino",
+      logo: arduinoLogo,
+      level: "Advanced",
+      stars: 4,
     },
   ];
+
+  const renderStars = (count) => {
+    return (
+      <div className="stars-container">
+        {[1, 2, 3, 4, 5].map((star) => (
+          <span
+            key={star}
+            className={`star ${star <= count ? "filled" : ""}`}
+          >
+            ★
+          </span>
+        ))}
+      </div>
+    );
+  };
 
   return (
     <section id="skills" className="skills-section">
@@ -64,14 +87,10 @@ function Skills() {
                 <img src={skill.logo} alt={`${skill.name} logo`} />
               </div>
               <h3>{skill.name}</h3>
-              <div className="skill-bar-container">
-                <div
-                  className="skill-bar"
-                  style={{ width: `${skill.proficiency}%` }}
-                >
-                  <span className="skill-percentage">{skill.proficiency}%</span>
-                </div>
-              </div>
+              <span className={`skill-level ${skill.level.toLowerCase()}`}>
+                {skill.level}
+              </span>
+              {renderStars(skill.stars)}
             </div>
           ))}
         </div>

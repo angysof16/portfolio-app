@@ -11,7 +11,15 @@ function Education() {
       description: "Bachelor of Systems Engineering",
     },
     {
-      id: 2,
+      id: 3,
+      degree: "Inteligencia artificial Nivel Básico",
+      institution: "UT Innova Digital",
+      duration: "2025",
+      description:
+        "Completed an Artificial Intelligence Explorer Bootcamp covering foundational AI concepts, basic machine learning techniques, data analysis with Python, and problem-solving using real datasets.",
+    },
+    {
+      id: 3,
       degree: "Diploma in Front-end Development with ReactJS",
       institution: "Campus FIMLM",
       duration: "2022",
