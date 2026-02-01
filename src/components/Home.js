@@ -29,7 +29,7 @@ function Home() {
         <h1>
           Hello, I'm <span className="highlight">Sofia Guerra Jiménez</span>
         </h1>
-        <h2>Systems Engineering Student</h2>
+        <h2>Systems and Mechatronics Engineering Student</h2>
         <p>
           I'm a 20-year-old Systems and Mechatronics Engineering student
           passionate about software development, computer networking, and
