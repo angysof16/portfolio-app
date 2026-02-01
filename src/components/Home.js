@@ -11,7 +11,7 @@ function Home() {
         <div className="update-banner">
           <div className="banner-content">
             <p>
-              <strong>I've updated my portfolio!</strong> I've created a new, improved version of my portfolio. 
+              <strong>I've updated my portfolio!</strong> Visit my new, improved version of my portfolio. 
               <a href="https://angysof16.github.io/personalwebsite/" className="banner-link" target="_blank" rel="noopener noreferrer">
                 View new portfolio →
               </a>
@@ -31,10 +31,10 @@ function Home() {
         </h1>
         <h2>Systems Engineering Student</h2>
         <p>
-          Welcome to my portfolio! I'm a 20-year-old Systems Engineering student
-          passionate about software development, web technologies, and
+          I'm a 20-year-old Systems and Mechatronics Engineering student
+          passionate about software development, computer networking, and
           problem-solving. I'm currently exploring <b>IoT and Robotics!</b> 🤖
-        </p>
+        </p> <br/>
         <p>
           Here you'll find my projects, experience, and more about me.
         </p>

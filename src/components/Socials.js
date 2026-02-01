@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/Socials.css';
+import React from "react";
+import "../styles/Socials.css";
 
 function Socials() {
   return (
@@ -10,15 +10,47 @@ function Socials() {
           <div className="contact-info">
             <div className="contact-item">
               <h3>LinkedIn</h3>
-              <a href="https://www.linkedin.com/in/angysof16/" target="_blank" rel="noopener noreferrer">linkedin.com/in/angysof16</a>
+              <a
+                href="https://www.linkedin.com/in/angysof16/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                View Profile
+              </a>
             </div>
             <div className="contact-item">
               <h3>GitHub</h3>
-              <a href="https://github.com/angysof16" target="_blank" rel="noopener noreferrer">github.com/angysof16</a>
+              <a
+                href="https://github.com/angysof16"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                View Repositories
+              </a>
             </div>
             <div className="contact-item">
               <h3>Instagram</h3>
-              <a href="https://instagram.com/angysof16" target="_blank" rel="noopener noreferrer">@angysof16</a>
+              <a
+                href="https://instagram.com/angysof16"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                Visit Profile
+              </a>
+            </div>
+            <div className="contact-item">
+              <h3>Personal Website</h3>
+              <a
+                href="https://angysof16.github.io/personalwebsite/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact-link"
+              >
+                Visit Site
+              </a>
             </div>
           </div>
         </div>

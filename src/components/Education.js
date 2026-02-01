@@ -5,6 +5,13 @@ function Education() {
   const education = [
     {
       id: 1,
+      degree: "Mechatronics Engineering",
+      institution: "Pontificia Universidad Javeriana",
+      duration: "2026 - 2028",
+      description: "Bachelor of Mechatronics Engineering",
+    },
+    {
+      id: 2,
       degree: "Systems Engineering",
       institution: "Pontificia Universidad Javeriana",
       duration: "2023 - 2027",
@@ -19,7 +26,7 @@ function Education() {
         "Completed an Artificial Intelligence Explorer Bootcamp covering foundational AI concepts, basic machine learning techniques, data analysis with Python, and problem-solving using real datasets.",
     },
     {
-      id: 3,
+      id: 4,
       degree: "Diploma in Front-end Development with ReactJS",
       institution: "Campus FIMLM",
       duration: "2022",

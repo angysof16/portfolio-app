@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
-import logoImage from "../assets/try.png";
+import logoImage from "../assets/logo.png";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,54 +25,56 @@ function Header() {
 
   return (
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
-      <div className="logo-container">
-        <img src={logoImage} alt="Logo" className="logo-img" />
-        <span className="logo-text">Sofia Guerra Jiménez</span>
-      </div>
+      <div className="header-container">
+        <div className="logo-container">
+          <img src={logoImage} alt="Logo" className="logo-img" />
+          <span className="logo-text">Sofia Guerra Jiménez</span>
+        </div>
 
-      <div
-        className={`hamburger ${menuOpen ? "active" : ""}`}
-        onClick={() => setMenuOpen(!menuOpen)}
-      >
-        <span className="bar"></span>
-        <span className="bar"></span>
-        <span className="bar"></span>
-      </div>
+        <div
+          className={`hamburger ${menuOpen ? "active" : ""}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </div>
 
-      <nav className={menuOpen ? "active" : ""}>
-        <ul>
-          <li>
-            <a href="#home" onClick={handleLinkClick}>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#projects" onClick={handleLinkClick}>
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#skills" onClick={handleLinkClick}>
-              Skills
-            </a>
-          </li>
-          <li>
-            <a href="#experience" onClick={handleLinkClick}>
-              Experience
-            </a>
-          </li>
-          <li>
-            <a href="#education" onClick={handleLinkClick}>
-              Education
-            </a>
-          </li>
-          <li>
-            <a href="#socials" onClick={handleLinkClick}>
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
+        <nav className={menuOpen ? "active" : ""}>
+          <ul>
+            <li>
+              <a href="#home" onClick={handleLinkClick}>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#projects" onClick={handleLinkClick}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#skills" onClick={handleLinkClick}>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a href="#experience" onClick={handleLinkClick}>
+                Experience
+              </a>
+            </li>
+            <li>
+              <a href="#education" onClick={handleLinkClick}>
+                Education
+              </a>
+            </li>
+            <li>
+              <a href="#socials" onClick={handleLinkClick}>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }
